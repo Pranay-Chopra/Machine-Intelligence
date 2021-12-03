@@ -4,6 +4,10 @@ body{
   text-decoration: none;
   overflow: overlay;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 .hellonav{
 	position: fixed;
     float: left;
