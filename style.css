@@ -2,6 +2,7 @@
 body{
   font-family: 'Langar', cursive;
   text-decoration: none;
+  overflow: overlay;
 }
 .hellonav{
 	position: fixed;
