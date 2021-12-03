@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Machine Intelligence | Cyclones</title>
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="ai.ico" type="image/x-icon">
+
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="assisstant.css">
+	<link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.1.2/dist/tailwind.min.css">
+	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js">
+	</script>
+
+	<header class="header" id="header">
+		<div class="header__toggle">
+			<i class='bx bx-menu' id="header-toggle"></i>
+            </div>
+        <title>AIWorld | AI Introduction</title>
+       
+    </head>
+    <body id="body-pd" style="font-family: 'Langar', cursive">
+     <a href="https://icons8.com/icon/58470/india-map"></a>
+
+            <div class="header__img">
+                <img src="assets/img/perfil.jpg" alt="">
+            </div>
+        </header>
+
+        <div class="l-navbar" id="nav-bar">
+            <nav class="nav">
+                <div class="navdiv">
+                    <a href="./Home Page/Index.html" class="nav__logo">
+                        <iconify-icon data-icon="eos-icons:ai" style="color: white;"></iconify-icon>
+                        <span class="nav__logo-name">   Machine Intelligence</span>
+                    </a>
+
+                    <div class="nav__list">
+                        <a href="page1.html" class="nav__link">
+                        <!-- <i class='bx bx-grid-alt nav__icon' ></i> -->
+                        <iconify-icon data-icon="akar-icons:home"></iconify-icon>
+                            <span class="nav__name">Home</span>
+                        </a>
+
+                        
+                        
+                        <a href="./page2.html" class="nav__link active">
+                            <!-- <i class='bx bx-message-square-detail nav__icon' ></i> -->
+                            <!-- <iconify-icon data-icon="noto:cyclone"></iconify-icon> -->
+                            <iconify-icon data-icon="emojione-monotone:cyclone"></iconify-icon>
+                            <span class="nav__name">Cyclone</span>
+                        </a>
+
+                        <a href="./page3.html" class="nav__link">
+                            <!-- <i class='bx bx-bookmark nav__icon' ></i> -->
+                            <!-- <iconify-icon data-icon="emojione-monotone:cyclone"></iconify-icon> -->
+                            <iconify-icon data-icon="emojione-monotone:flag-for-india"></iconify-icon>
+                          <!-- <img src="https://img.icons8.com/ios/50/000000/india-map.png"/> -->
+                            <span class="nav__name">Cyclone Tauktae</span>
+                        </a>
+
+                        <a href="./page4.html" class="nav__link">
+                            <!-- <i class='bx bx-folder nav__icon' ></i> -->
+                            <iconify-icon data-icon="el:phone"></iconify-icon>
+                            <span class="nav__name">Contact</span>
+                        </a>
+
+                          
+
+                         
+                    </div>
+                </div>
+            </nav>
+        </div>
+     
+     
+     <div class="container_microphone">
+     <br><br>
+     <button class="btn btn1" id="btn" onclick='recognition.start()' style="outline: none;"><i class="fas fa-microphone"></i></button>
+      </div>
+     <h1 id = "result"></h1>
+  
+    <nav class = "hellonav">
+      <a href="page1.html" class = "helloa">Home</a>
+      <a href="./page2.html" class = "helloa">Cyclone</a>
+      <a href="./page3.html" class = "helloa">Tauktae</a>
+      <a href="./page4.html" class = "helloa">Contact Us</a>
+       
+      <div class="animation start-cyclone"></div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="text-gray-600 body-font" style="margin-left: 60px; margin-right:60px;">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <img class="object-cover object-center rounded" alt="hero" src="https://images.unsplash.com/photo-1454789476662-53eb23ba5907?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3ljbG9uZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">What do we mean
+        <br class="hidden lg:inline-block">by Cyclones
+      </h1>
+      <p class="mb-8 leading-relaxed">Cyclone, any large system of winds that circulates about a centre of low atmospheric pressure in a counterclockwise direction north of the Equator and in a clockwise direction to the south. Cyclonic winds move across nearly all regions of the Earth except the equatorial belt and are generally associated with rain or snow. Also occurring in much the same areas are anticyclones, wind systems that rotate about a high-pressure centre. Anticyclones are so called because they have a flow opposite to that of cyclones—i.e., an outward-spiralling motion, with the winds rotating clockwise in the Northern Hemisphere and counterclockwise in the Southern.</p>
+      <div class="flex justify-center">
+        <a href="https://en.wikipedia.org/wiki/Cyclone"><button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn More --></button></a>
+        <!-- <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://gumlet.assettype.com/nationalherald%2F2018-12%2F9e308acf-c6a3-4811-8ce7-7a515d92c71e%2Fpethai.jpg?rect=0%2C24%2C875%2C492&auto=format%2Ccompress&w=1200">
+    <div class="text-center lg:w-2/3 w-full">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Why are cyclones named?</h1>
+      <p class="mb-8 leading-relaxed">The cyclones are named to make it easier for people to remember and identify the storms. With a name, it is easy to create awareness and to send out alerts, and remove confusion where there are multiple cyclonic</p>
+      <div class="flex justify-center">
+        <a href="https://en.wikipedia.org/wiki/Tropical_cyclone_naming"><button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn More --></button></a>
+        <!-- <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+    <section class="text-gray-600 body-font" style="margin-left: 60px; margin-right:60px;">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">History of Cyclone's in India</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">India is a country in the North Indian Ocean that is the most vulnerable to getting hit by tropical cyclones in the basin, from the east or from the west.On average, 2–3 tropical cyclones make landfall in India each year, with about one being a severe tropical cyclone or greater.</p>
+      <h3 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">The Major ones are --></h3>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVM60246gL_fl3PCsgkzQEDl_jC9UfKKXHCg&usqp=CAU">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">The Bhola</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cyclone</h1>
+            <a href="https://en.wikipedia.org/wiki/1970_Bhola_cyclone"><p class="leading-relaxed">Learn More on Wikipedia --><br>--------------------------------------</p></a>
+            <a href="https://youtu.be/xOdrs5izEqw"><p class="leading-relaxed">Learn More through a Video --></p></a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full" src="./1991 bangla cyclone.png">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">The Bangladesh</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cyclone</h1>
+            <a href="https://en.wikipedia.org/wiki/1991_Bangladesh_cyclone"><p class="leading-relaxed">Learn More on Wikipedia --><br>--------------------------------------</p></a>
+            <a href="https://youtu.be/rqaCsN3ED8k"><p class="leading-relaxed">Learn More through a Video --></p></a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full" src="./andhra cyclone.png">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">The Andhra Pradesh</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cyclone</h1>
+            <a href="https://en.wikipedia.org/wiki/1990_Andhra_Pradesh_cyclone"><p class="leading-relaxed">Learn More on Wikipedia --><br>--------------------------------------</p></a>
+            <a href="https://youtu.be/a0LcmXnVgFY"><p class="leading-relaxed">Learn More through a Video --></p></a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full" src="./1999 odisha cyclone.png">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">The Odisha Super</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cyclone</h1>
+            <a href="https://en.wikipedia.org/wiki/1999_Odisha_cyclone"><p class="leading-relaxed">Learn More on Wikipedia --><br>--------------------------------------</p></a>
+            <a href="https://www.ndtv.com/video/special/news/the-orissa-super-cyclone-284476"><p class="leading-relaxed">Learn More through a Video --></p></a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full" src="./cyclone thane.png">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">The Thane</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cyclone</h1>
+            <a href="https://en.wikipedia.org/wiki/Cyclone_Thane"><p class="leading-relaxed">Learn More on Wikipedia --><br>--------------------------------------</p></a>
+            <a href="https://youtu.be/J3mh0ExtWHw"><p class="leading-relaxed">Learn More through a Video --></p></a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full" src="./cyclone phailin.png">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">The Phailin</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cyclone</h1>
+            <a href="https://en.wikipedia.org/wiki/Cyclone_Phailin"><p class="leading-relaxed">Learn More on Wikipedia --><br>--------------------------------------</p></a>
+            <a href="https://youtu.be/8-Ga6KbmhUo"><p class="leading-relaxed">Learn More through a Video --></p></a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full" src="./cyclone lehar.png">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">The Lehar</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cyclone</h1>
+            <a href="https://en.wikipedia.org/wiki/Cyclone_Lehar"><p class="leading-relaxed">Learn More on Wikipedia --><br>--------------------------------------</p></a>
+            <a href="https://www.youtube.com/watch?v=-yfetjxEoIw"><p class="leading-relaxed">Learn More through a Video --></p></a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full" src="./cyclone hudhud.png">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">The Hudhud</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cyclone</h1>
+            <a href="https://en.wikipedia.org/wiki/Cyclone_Hudhud"><p class="leading-relaxed">Learn More on Wikipedia --><br>--------------------------------------</p></a>
+            <a href="https://www.youtube.com/watch?v=2MoFKCO5jzk"><p class="leading-relaxed">Learn More through a Video --></p></a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full" src="./cyclone fani.png">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">The Fani</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cyclone</h1>
+            <a href="https://en.wikipedia.org/wiki/Cyclone_Fani"><p class="leading-relaxed">Learn More on Wikipedia --><br>--------------------------------------</p></a>
+            <a href="https://www.youtube.com/watch?v=41spsLkzMT8"><p class="leading-relaxed">Learn More through a Video --></p></a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full" src="./cyclone vayu.png">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">The Vayu</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cyclone</h1>
+            <a href="https://en.wikipedia.org/wiki/Cyclone_Vayu"><p class="leading-relaxed">Learn More on Wikipedia --><br>--------------------------------------</p></a>
+            <a href="https://www.youtube.com/watch?v=ni2c6deOZ24"><p class="leading-relaxed">Learn More through a Video --></p></a>
+          </div>
+        </div>
+       </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full" src="./cyclone amphan.png">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">The Amphan</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cyclone</h1>
+            <a href="https://en.wikipedia.org/wiki/Cyclone_Amphan"><p class="leading-relaxed">Learn More on Wikipedia --><br>--------------------------------------</p></a>
+            <a href="https://www.youtube.com/watch?v=l7kj3MK4mQ0"><p class="leading-relaxed">Learn More through a Video --></p></a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full" src="./cyclone nivar .png">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">The Nivar</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cyclone</h1>
+            <a href="https://en.wikipedia.org/wiki/Cyclone_Nivar"><p class="leading-relaxed">Learn More on Wikipedia --><br>--------------------------------------</p></a>
+            <a href="https://www.youtube.com/watch?v=k2FBPvh6XN0"><p class="leading-relaxed">Learn More through a Video --></p></a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full" src="./cyclone nisarga.png">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">The Nisarga</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cyclone</h1>
+            <a href="https://en.wikipedia.org/wiki/Cyclone_Nisarga"><p class="leading-relaxed">Learn More on Wikipedia --><br>--------------------------------------</p></a>
+            <a href="https://www.youtube.com/watch?v=yHjmeQwHUwQ"><p class="leading-relaxed">Learn More through a Video --></p></a>
+          </div>
+        </div>
+      </div>
+       <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full" src="./cyclone tauktae.png">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">The Tauktae</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cyclone</h1>
+            <a href="https://en.wikipedia.org/wiki/Cyclone_Tauktae"><p class="leading-relaxed">Learn More on Wikipedia --><br>--------------------------------------</p></a>
+            <a href="https://www.youtube.com/watch?v=XWlL5y9-XXg"><p class="leading-relaxed">Learn More through a Video --></p></a>
+          </div>
+        </div>
+       </div>
+       <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full" src="./cyclone yaas.png">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">The Yaas</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cyclone</h1>
+            <a href="https://en.wikipedia.org/wiki/Cyclone_Yaas"><p class="leading-relaxed">Learn More on Wikipedia --><br>--------------------------------------</p></a>
+            <a href="https://www.youtube.com/watch?v=NSi4nf0S_pM"><p class="leading-relaxed">Learn More through a Video --></p></a>
+          </div>
+        </div>
+       </div>
+       
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="text-center mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Preventions in case of a Cyclone</h1>
+      <!-- <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p> -->
+    </div>
+    <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Before A Cyclone: Make The Necessary Preparations</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">After A Cyclone: Wait, Check And Listen</span>
+        </div>
+      </div>
+      
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Before A Cyclone: Have A Storm Cellar Installed</span>
+        </div>
+      </div>
+      
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">After A Cyclone: Evacuate If Need Be</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Before A Cyclone: Prepare Your Emergency Survival Kit</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">After A Cyclone: Contact Your Insurance Company</span>
+        </div>
+      </div>
+    </div>
+    <a href="https://blog.gunassociation.org/cyclone-survival-tips/"><button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn More --></button></a>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<script src="./script.js"></script>
+<script src="./assisstant.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+Natural disasters resources
+1. https://i.pinimg.com/originals/ac/de/ac/acdeacfd6cdf3c5c5f6eef7ffe5235a2.png
+2. https://www.duluthnewstribune.com/incoming/4878208-92q1lg-natural-disasters.jpg/alternates/BASE_LANDSCAPE/natural%20disasters.jpg
+3. https://dissertationsage.co.uk/dsage/wp-content/uploads/2018/01/dissertation-topics-on-disaster-management.jpg
+4. https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN1250TM_aWs7ev3cOpZ5DHX_Qumg7VWwltQ&usqp=CAU
+5. https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3qS5Miag1VopAi4EhhNKsCrGVNHiG60qcpA&usqp=CAU
+6. https://qtxasset.com/quartz/qcloud1/styles/852x479_16_9_/s3/media/image/2016-07/shutterstock_110603645.jpg?VersionId=FRYuLaxO1NG4m50ZNJW9ITfVk044LYeI&itok=_sW8PinB
+7. https://media.istockphoto.com/photos/deadly-storms-headling-collage-picture-id155013893?k=6&m=155013893&s=612x612&w=0&                     h=nTGwyQOGnSQW-LEhxFkKGKoSKLHrSEPL0xg7HZEf2es=
+8. https://media.istockphoto.com/photos/deadly-storms-headling-collage-picture-id155013893?k=6&m=155013893&s=612x612&w=0&h=nTGwyQOGnSQW-LEhxFkKGKoSKLHrSEPL0xg7HZEf2es=
+9. https://www.schneiderroofingandremodeling.com/wp-content/uploads/2015/09/Natural-Disaster-Sign.jpg
+
+
+
+ -->
