@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Machine Intelligence | Contact Us</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="ai.ico" type="image/x-icon">
+
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assisstant.css">
+<link rel="stylesheet" href="page6.css">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.1.2/dist/tailwind.min.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+<header class="header" id="header">
+            <div class="header__toggle">
+                <i class='bx bx-menu' id="header-toggle"></i>
+            </div>
+        <title>Act of God | Contact Us</title>
+       
+    </head>
+    <body id="body-pd" style="font-family: 'Langar', cursive; overflow-x: hidden; overflow-y: hidden;">
+     
+
+            <div class="header__img">
+                <img src="assets/img/perfil.jpg" alt="">
+            </div>
+        </header>
+
+        <div class="l-navbar" id="nav-bar">
+            <nav class="nav">
+                <div class="navdiv">
+                    <a href="./Home Page/Index.html" class="nav__logo">
+                        <iconify-icon data-icon="eos-icons:ai" style="color: white;"></iconify-icon>
+                        <span class="nav__logo-name">   Machine Intelligence</span>
+                    </a>
+
+                    <div class="nav__list">
+                        <a href="page1.html" class="nav__link">
+                        <!-- <i class='bx bx-grid-alt nav__icon' ></i> -->
+                        <iconify-icon data-icon="akar-icons:home"></iconify-icon>
+                            <span class="nav__name">Home</span>
+                        </a>
+
+                        
+                        
+                        <a href="./page2.html" class="nav__link">
+                            <!-- <i class='bx bx-message-square-detail nav__icon' ></i> -->
+                            <iconify-icon data-icon="emojione-monotone:cyclone"></iconify-icon>
+                            <span class="nav__name">Cyclone</span>
+                        </a>
+
+                        <a href="./page3.html" class="nav__link">
+                            <!-- <i class='bx bx-bookmark nav__icon' ></i> -->
+                            <!-- <iconify-icon data-icon="emojione-monotone:cyclone"></iconify-icon> -->
+                            <iconify-icon data-icon="emojione-monotone:flag-for-india"></iconify-icon>
+                          <!-- <img src="https://img.icons8.com/ios/50/000000/india-map.png"/> -->
+                            <span class="nav__name">Cyclone Tauktae</span>
+                        </a>
+
+                        <a href="./page6.html" class="nav__link active">
+                            <!-- <i class='bx bx-folder nav__icon' ></i> -->
+                            <iconify-icon data-icon="el:phone"></iconify-icon>
+                            <span class="nav__name">Contact Us</span>
+                        </a>
+
+                          
+
+                         
+                    </div>
+                </div>
+
+                
+            </nav>
+        </div>
+     
+     
+     <div class="container_microphone">
+     <br><br>
+     <button class="btn btn1" id="btn" onclick='recognition.start()' style="outline: none;"><i class="fas fa-microphone"></i></button>
+      </div>
+     <h1 id = "result"></h1>
+  
+    <nav class = "hellonav">
+      <a href="page1.html" class = "helloa">Home</a>
+      <a href="./page2.html" class = "helloa">Cyclone</a>
+      <a href="./page3.html" class = "helloa">Tauktae</a>
+      <a href="./page6.html" class = "helloa">Contact Us</a>
+       
+      <div class="animation start-contact"></div>
+    </nav>
+
+
+
+
+
+
+
+    <br><br>
+
+<div class="container1234">
+        <div class="card">
+            <div class="sneaker">
+                <div class="circle"></div>
+                <img src="https://image.flaticon.com/icons/png/512/125/125877.png" alt="call/phone">
+            </div>
+            <div class="info">
+                <h1 class="title">Contact Us</h1>
+                <h3>Contact us to get Help and for further asisstance </h3>
+                <div class="sizes">
+                  <a href="mailto:virneil2020@gmail.com">
+                    <button style="outline: none;">Neil</button></a>
+                    <a href="mailto:pranaychopra2007@gmail.com">
+                    <button style="outline: none;">Pranay</button></a>
+                    <a href="mailto:nishita.apeejay@gmail.com">
+                    <button style="outline: none;">Nishita</button></a>
+
+                </div>
+                <h3>Site developed by: Pranay Chopra & Neil Virmani.<br>Content by: Nishita Agarwal.</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  /*===== SHOW NAVBAR  =====*/ 
+const showNavbar = (toggleId, navId, bodyId, headerId) =>{
+    const toggle = document.getElementById(toggleId),
+    nav = document.getElementById(navId),
+    bodypd = document.getElementById(bodyId),
+    headerpd = document.getElementById(headerId)
+
+    // Validate that all variables exist
+    if(toggle && nav && bodypd && headerpd){
+        toggle.addEventListener('click', ()=>{
+            // show navbar
+            nav.classList.toggle('show')
+            // change icon
+            toggle.classList.toggle('bx-x')
+            // add padding to body
+            bodypd.classList.toggle('body-pd')
+            // add padding to header
+            headerpd.classList.toggle('body-pd')
+        })
+    }
+}
+
+showNavbar('header-toggle','nav-bar','body-pd','header')
+
+/*===== LINK ACTIVE  =====*/ 
+const linkColor = document.querySelectorAll('.nav__link')
+
+function colorLink(){
+    if(linkColor){
+        linkColor.forEach(l=> l.classList.remove('active'))
+        this.classList.add('active')
+    }
+}
+linkColor.forEach(l=> l.addEventListener('click', colorLink))
+
+
+
+
+
+
+
+
+
+//Movement Animation to happen
+const card = document.querySelector(".card");
+const container123 = document.querySelector(".container1234");
+//Items
+const title = document.querySelector(".title");
+const sneaker = document.querySelector(".sneaker img");
+const purchase = document.querySelector(".purchase");
+const description = document.querySelector(".info h3");
+const sizes = document.querySelector(".sizes");
+
+
+
+
+//Moving Animation Event
+container123.addEventListener("mousemove", (e) => {
+  let xAxis = (window.innerWidth / 2 - e.pageX) / 25;
+  let yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+  card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+});
+//Animate In
+container123.addEventListener("mouseenter", (e) => {
+  card.style.transition = "none";
+  //Popout
+  title.style.transform = "translateZ(150px)";
+  sneaker.style.transform = "translateZ(200px) rotateZ(-45deg)";
+  description.style.transform = "translateZ(125px)";
+  sizes.style.transform = "translateZ(100px)";
+  purchase.style.transform = "translateZ(75px)";
+});
+//Animate Out
+container123.addEventListener("mouseleave", (e) => {
+  card.style.transition = "all 0.5s ease";
+  card.style.transform = `rotateY(0deg) rotateX(0deg)`;
+  //Popback
+  title.style.transform = "translateZ(0px)";
+  sneaker.style.transform = "translateZ(0px) rotateZ(0deg)";
+  description.style.transform = "translateZ(0px)";
+  sizes.style.transform = "translateZ(0px)";
+  purchase.style.transform = "translateZ(0px)";
+});
+
+
+
+
+
+
+
+
+
+
+
+
+// //Movement Animation to happen
+// const card = document.querySelector(".card");
+// const container123 = document.querySelector(".container1234");
+// //Items
+// const title = document.querySelector(".title");
+// const sneaker = document.querySelector(".sneaker img");
+// const purchase = document.querySelector(".purchase");
+// const description = document.querySelector(".info h3");
+// const sizes = document.querySelector(".sizes");
+
+// //Moving Animation Event
+// container123.addEventListener("mousemove", (e) => {
+//   let xAxis = (window.innerWidth / 2 - e.pageX) / 25;
+//   let yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+//   card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+// });
+// //Animate In
+// container123.addEventListener("mouseenter", (e) => {
+//   card.style.transition = "none";
+//   //Popout
+//   title.style.transform = "translateZ(150px)";
+//   sneaker.style.transform = "translateZ(200px) rotateZ(-45deg)";
+//   description.style.transform = "translateZ(125px)";
+//   sizes.style.transform = "translateZ(100px)";
+//   purchase.style.transform = "translateZ(75px)";
+// });
+// //Animate Out
+// container123.addEventListener("mouseleave", (e) => {
+//   card.style.transition = "all 0.5s ease";
+//   card.style.transform = `rotateY(0deg) rotateX(0deg)`;
+//   //Popback
+//   title.style.transform = "translateZ(0px)";
+//   sneaker.style.transform = "translateZ(0px) rotateZ(0deg)";
+//   description.style.transform = "translateZ(0px)";
+//   sizes.style.transform = "translateZ(0px)";
+//   purchase.style.transform = "translateZ(0px)";
+// });
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<script src="page6.js"></script>
+<!-- <script src="./script.js"></script> -->
+<script src="./assisstant.js"></script>
+  </body>
+</html>
