@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
     <meta charset="utf-8">
-    <title>Machine Intelligence | Cyclone TaukTae</title>
+    <title>Machine Intelligence | Introduction to AI</title>
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="ai.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assisstant.css">
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.1.2/dist/tailwind.min.css">
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <!--- <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.1.2/dist/tailwind.min.css"> --->
+    <link rel="stylesheet" href="./tailwind.css" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js">
+    </script>
+    <link rel="shortcut icon" href="./ai.ico" type="image/x-icon">
+
 
     <header class="header" id="header">
         <div class="header__toggle">
             <i class='bx bx-menu' id="header-toggle"></i>
         </div>
-        <title>AIWorld | AI Introduction</title>
+
+
 
         </head>
-<body id="body-pd" style="font-family: 'Langar', cursive">
+<body id="body-pd" style="font-family: 'Langar', cursive;">
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
 
 
 <div class="header__img">
-    <img src="assets/img/perfil.jpg" alt="">
+    <img src="assets/img/perfil.jpg" alt="" class="menu">
 </div>
 </header>
 
@@ -32,45 +39,59 @@
     <nav class="nav">
         <div class="navdiv">
             <a href="./Home Page/Index.html" class="nav__logo">
-                <iconify-icon data-icon="eos-icons:ai" style="color: white;"></iconify-icon>
-                <span class="nav__logo-name">   Machine Intelligence</span>
+                <iconify-icon data-icon="eos-icons:ai" style="color: white;" class="iconlg"></iconify-icon>
+                <span class="nav__logo-name">Back to Home</span>
             </a>
 
+
             <div class="nav__list">
-                <a href="page1.html" class="nav__link">
-                    <!-- <i class='bx bx-grid-alt nav__icon' ></i> -->
-                    <iconify-icon data-icon="akar-icons:home"></iconify-icon>
-                    <span class="nav__name">Home</span>
+                <a href="./page1.html" class="nav__link">
+
+                    <p><strong><b><iconify-icon data-icon="akar-icons:home"></iconify-icon></b></strong></p>
+                    <span class="nav__name">Introduction</span>
                 </a>
 
 
 
                 <a href="./page2.html" class="nav__link">
-                    <!-- <i class='bx bx-message-square-detail nav__icon' ></i> -->
-                    <iconify-icon data-icon="emojione-monotone:cyclone"></iconify-icon>
-                    <span class="nav__name">Cyclone</span>
+
+                    <iconify-icon data-icon="codicon:symbol-method"></iconify-icon>
+                    <span class="nav__name">Methods and Goals</span>
                 </a>
 
-                <a href="./page3.html" class="nav__link active">
-                    <!-- <i class='bx bx-bookmark nav__icon' ></i> -->
-                    <!-- <iconify-icon data-icon="emojione-monotone:cyclone"></iconify-icon> -->
-                    <iconify-icon data-icon="emojione-monotone:flag-for-india"></iconify-icon>
-                    <!-- <img src="https://img.icons8.com/ios/50/000000/india-map.png"/> -->
-                    <span class="nav__name">Cyclone Tauktae</span>
+                <a href="./page3.html" class="nav__link">
+
+                    <iconify-icon data-icon="codicon:history"></iconify-icon>
+
+                    <span class="nav__name">History</span>
+                </a>
+
+                <a href="./page4.html" class="nav__link active">
+
+                    <iconify-icon data-icon="healthicons:group-discussion-meeting-outline" class="iconlg"></iconify-icon>
+
+                    <span class="nav__name">Boon or Bane</span>
+                </a>
+
+                <a href="./page5.html" class="nav__link">
+
+                    <iconify-icon data-icon="wpf:future"></iconify-icon>
+
+                    <span class="nav__name">Future</span>
                 </a>
 
                 <a href="page6.html" class="nav__link">
-                    <!-- <i class='bx bx-folder nav__icon' ></i> -->
+
                     <iconify-icon data-icon="el:phone"></iconify-icon>
                     <span class="nav__name">Contact Us</span>
                 </a>
 
+                  
 
 
 
             </div>
         </div>
-
 
     </nav>
 </div>
@@ -83,14 +104,15 @@
 <h1 id = "result"></h1>
 
 <nav class = "hellonav">
-    <a href="page1.html" class = "helloa">Home</a>
-    <a href="./page2.html" class = "helloa">Cyclone</a>
-    <a href="./page3.html" class = "helloa">Tauktae</a>
-    <a href="page6.html" class = "helloa">Contact Us</a>
-
-    <div class="animation start-tauktae"></div>
+    <a href="./page1.html" class = "helloa">Introduction</a>
+    <a href="./page2.html" class = "helloa">Methods</a>
+    <a href="./page3.html" class = "helloa">History</a>
+    <a href="./page4.html" class = "helloa">Boon or Bane</a>
+    <a href="./page5.html" class = "helloa">Future</a>
+    <a href="./page6.html" class = "helloa">Contact Us</a>
+     
+    <div class="animation start-boonbane"></div>
 </nav>
-
 
 
 
