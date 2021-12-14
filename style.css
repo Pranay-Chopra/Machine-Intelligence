@@ -8,6 +8,14 @@ body{
 html {
     scroll-behavior: smooth;
 }
+
+.timeline_ai{
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  margin-left: 10%;
+}
+
 .hellonav{
 	position: fixed;
     float: left;
