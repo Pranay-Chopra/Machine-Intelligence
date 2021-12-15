@@ -2,7 +2,8 @@
 body{
   font-family: 'Langar', cursive;
   text-decoration: none;
-  overflow: overlay;
+  overflow-y: overlay;
+  overflow-x: hidden;
 }
 
 html {
